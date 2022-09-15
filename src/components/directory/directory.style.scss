@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+.directory-container {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-template-rows: repeat(2, 300px);
+  gap: 20px;
+  margin: 20px;
+  align-content: center;
+}
