@@ -20,7 +20,6 @@ const Category = () => {
             <ProductCard key={product.id} product={product} />
           ))}
       </CategoryContainer>
-      Logo
     </Fragment>
   );
 };
